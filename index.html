@@ -116,7 +116,7 @@
                 </a>
               </span> -->
                 <span class="link-block">
-                  <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/abs/2401.16663" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
                     </span>
@@ -130,6 +130,37 @@
         </div>
       </div>
   </section>
+
+<!--    <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Bear</h2>
+      <p>
+        VR-GS empowers users to interactive manipulate 3D Gaussian kernels at a real-time rate with physically plausible response and realistic illumination.
+      </p>
+      <br>
+      &lt;!&ndash; <div class="col-md-8 col-md-offset-2"> &ndash;&gt;
+      <div class="content has-text-centered">
+        <video id="replay-video" controls muted preload playsinline autoplay loop width="75%">
+          <source src="./static/videos/bear.mp4" type="video/mp4">
+        </video>
+      </div>
+      &lt;!&ndash; </div> &ndash;&gt;
+    </div>
+  </section>-->
+
+     <section class="section">
+  <div class="container is-max-desktop">
+    <div class="bear-body">
+      <video id="bear" autoplay muted loop playsinline height="75%">
+        <source src="./static/videos/bear.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+       VR-GS empowers users to interactive manipulate 3D Gaussian kernels at a real-time rate with physically plausible response and realistic illumination.
+      </h2>
+    </div>
+  </div>
+</section>
 
   <!-- <section class="hero teaser">
   <div class="container is-max-desktop">
@@ -254,6 +285,61 @@
     </div>
   </section>
 
+    <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Pipeline</h2>
+      <img src="./static/images/pipeline.jpg" class="interpolation-image" />
+      <p>
+VR-GS is an interactive system meticulously crafted to integrate 3D Gaussian Splatting (GS) and eXtended Position-based
+        Dynamics(XPBD) for generating a real-time interactive experience in Virtual Reality (VR). Beginning with multi-view
+        images, the pipeline skillfully combines scene reconstruction, segmentation, and inpainting using Gaussian kernels.
+        These kernels form the foundation for VR-GS's utilization of the sparse volumetric data structure VDB,
+        facilitating bounding mesh reconstruction and subsequent tetrahedralization. VR-GS further harnesses a novel
+        two-level rendering geometry embedding, \ac{pbd}, collision detection, and shadow casting techniques,
+        all converging to deliver a captivating and immersive user experience.
+      </p>
+    </div>
+  </section>
+
+     <section class="section">
+  <div class="container is-max-desktop">
+    <div class="horse-body">
+      <video id="horse" autoplay muted loop playsinline height="75%">
+        <source src="./static/videos/horse.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+      VR-GS enables users to interact with 3D Gaussian kernels at a user-friendly manner.
+      </h2>
+    </div>
+  </div>
+</section>
+
+       <section class="section">
+  <div class="container is-max-desktop">
+    <div class="comparison-body">
+<div class="video-container">
+         <video id="horse" autoplay muted loop playsinline width="33%">
+            <source src="./static/videos/chair.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+         <video id="horse" autoplay muted loop playsinline width="33%">
+            <source src="./static/videos/stool.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+         <video id="horse" autoplay muted loop playsinline width="33%">
+            <source src="./static/videos/material.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+      <h2 class="subtitle has-text-centered">
+        Visual Quality Comparison: our method synthesizes competitive visual results compared to PhysGuassian and significantly outperforms PAC-NeRF.
+      </h2>
+    </div>
+  </div>
+</section>
 
   <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
@@ -266,6 +352,7 @@
 }</code></pre>
   </div>
 </section> -->
+
 
 
   <footer class="footer">
